@@ -1,0 +1,192 @@
+
+
+body {
+    background-image: url("D:/New folder/zgeTuV.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.logo svg{
+    width: 150px;
+    height: auto ;
+}
+
+
+.login-container {
+    background: rgba(0, 0, 0, 0.879);
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    height: auto;
+    margin: 80px 0 60px 0;
+    opacity: 1;
+    
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-group label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #8c8c8c;
+    transition: 0.2s;
+    font-size: 16px;
+}
+
+
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background: #e50914;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-button:hover {
+    background: #f40612;
+}
+
+.help-section {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.signup-now {
+    margin-top: 20px;
+}
+
+.signup-now a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.signup-now a:hover {
+    text-decoration: underline;
+}
+.msg {
+    color: white;
+}
+.else p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+ .another-method input { 
+    background-color: #a7a6a5; 
+    font-size: 15px; 
+    line-height: 16px; 
+    font-weight: 600; 
+    font-family: sans-serif; 
+    height: 40px; 
+    width: 100%; 
+    opacity: 0.6;
+    position: relative;
+}
+.another-method input:hover {
+    background-color: #e7e3e3;
+    cursor: pointer;
+}
+.forgot-password a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+}
+.forgot-password a:hover {
+    text-decoration: underline;
+    color: rgb(161, 160, 160);
+    cursor: pointer;
+}
+footer {
+    background: rgb(7, 7, 7);
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: #fafafa;
+    margin-bottom: -250px; ;
+}
+
+.footer-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+    color: #8c8c8c;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
